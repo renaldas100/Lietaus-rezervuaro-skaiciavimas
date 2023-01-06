@@ -27,9 +27,9 @@ function Skaiciuokle() {
         settalpa(l);
         setpildymogreitis(lval);
         setpildymolaikas(val)
-        // setl("");
-        // setlval("");
-        // setval("");
+        setl("");
+        setlval("");
+        setval("");
         setpranesimas("");
         setuzpildymas(uzpildymoprocentai);
         ispejimai();
