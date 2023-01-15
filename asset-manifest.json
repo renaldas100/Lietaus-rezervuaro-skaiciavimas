@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Lietaus-rezervuaro-skaiciavimas/static/css/main.68841a8d.css",
+    "main.js": "/Lietaus-rezervuaro-skaiciavimas/static/js/main.dc33f873.js",
+    "static/js/787.ee01d3cd.chunk.js": "/Lietaus-rezervuaro-skaiciavimas/static/js/787.ee01d3cd.chunk.js",
+    "index.html": "/Lietaus-rezervuaro-skaiciavimas/index.html",
+    "main.68841a8d.css.map": "/Lietaus-rezervuaro-skaiciavimas/static/css/main.68841a8d.css.map",
+    "main.dc33f873.js.map": "/Lietaus-rezervuaro-skaiciavimas/static/js/main.dc33f873.js.map",
+    "787.ee01d3cd.chunk.js.map": "/Lietaus-rezervuaro-skaiciavimas/static/js/787.ee01d3cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68841a8d.css",
+    "static/js/main.dc33f873.js"
+  ]
+}
