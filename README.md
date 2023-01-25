@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Lietaus rezervuaro skaiciavimas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Naudotos technologojos REACT + BOOTSTRAP
 
-## Available Scripts
+Sukurta React aplikacija kuri skirta apskaičiuoti lietaus rezervuaro užpildymą:
 
-In the project directory, you can run:
+Turėtumėme tris įvedimo laukus:
+Rezervuaro talpą (l)
+Rezervuaro pildymo greititį (l/val.)
+Laiką kiek rezervuaras bus pildomas (val.)
 
-### `npm start`
+Paspaudus skaičiuoti aplikacija suskaičiuoja kiek % rezervuaro yra užpildyta.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**************************************************************
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Sukurtas naujas React projektas ir prisidėta Bootstrap biblioteka
+2. Sukurtas HTML forma ir atvaizdavimas
+3. Panaudojant kintamuosius ir būsenas (useState) pririšti kintamieji prie formos laukų
+4. Sukurtas programinis kodas kuris suskaičiuoja ir išvesda informaciją į formą
+5. Padaryta taip, kad jei rezervuaras yra pripildytas daugiau nei 80% atsirastų bootstrap pranešimas, jog rezervuaro talpa kritiškai pripildyta. Jei pripildymas būtų 100% ar daugiau atsirada pranešimas, jog talpa yra perpildyta. Padarta jog pranešimų klasės būtų atitinkamos: 0-80% žalios spalvos, 80%-100% geltonos, 100% ir daugiau raudonos spalvos. 
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Printscreen
+![rain_reservoir_calculation](https://user-images.githubusercontent.com/117721797/214671656-eeb99dab-cfff-4c06-a9c3-12b8ca5fe7ee.jpg)
